@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "url": [
+        "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/app.ps1",
+        "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/app.py"
+    ],
+    "hash": [
+        "6bdad98da4ffc830c7962d2d0f95d417f2153a87a889c8f8d35f385f3b0031ad",
+        "1d8693454c854fc29e7ad4dbea51ead2b0660a238014c1497fe0bc8e367f4170"
+    ],
+    "bin": [
+        [
+            "app.ps1",
+            "pack-cpp-hw"
+        ]
+    ],
+    "suggest": {
+        "python": [
+            "python"
+        ]
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/config.json",
+        "jp": "$.latestVersion"
+    },
+    "autoupdate": {
+        "url": [
+            "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/app.ps1",
+            "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/app.py"
+        ],
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
