@@ -1,11 +1,11 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "url": [
         "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/app.ps1",
         "https://raw.githubusercontent.com/ceclin/scoop-bucket-me/source/pack-cpp-homework/app.py"
     ],
     "hash": [
-        "f4b3ecf742c19a0dfa4bc57993dcde352d984a27f132a2c4b5107070eec266ff",
+        "bc3babc99857111a7345fec7d6e176c92000696b6d07237fccac63bcc948fa21",
         "1f73b396bfd6e4594057145e92e62defeaaeb300db2c824daff4e617963dd854"
     ],
     "bin": [
